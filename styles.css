@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  gap: 171px;
+  flex-direction: column;
+  align-items: center;
+}
+.section-header {
+  display: flex;
+  width: 1220px;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 49px;
+}
+.noletter {
+  width: 60.7925px;
+}
+.section-title {
+  color: rgb(28, 29, 29);
+  font-size: 36px;
+  font-family: "Basic Commercial Soft Rounded", sans-serif;
+  font-weight: 700;
+  line-height: 43.2px;
+}
+.section-view-all {
+  padding-top: 6px;
+}
+.view-all-link {
+  color: rgb(28, 29, 29);
+  font-size: 17px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu,
+    "Helvetica Neue", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  font-weight: 400;
+  letter-spacing: 0.425px;
+  line-height: 27.2px;
+  text-decoration: none;
+}
+.section-items {
+  display: flex;
+  width: 1220px;
+  gap: 28px;
+}
+.product-card {
+  width: 284px;
+}
+.link-to-product-page {
+  text-decoration: none;
+}
+.card-thumbnail-wrapper {
+  width: 284px;
+  margin-bottom: 9px;
+}
+img {
+  width: 100%;
+  vertical-align: middle;
+}
+.card-title {
+  color: rgb(28, 29, 29);
+  font-size: 20.06px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu,
+    "Helvetica Neue", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  font-weight: 400;
+  letter-spacing: 0.425px;
+  line-height: 30.09px;
+  margin-bottom: 7px;
+}
+.card-rating {
+  display: flex;
+  gap: 2px;
+}
+.icon {
+  margin-bottom: 11px;
+}
+.rating-label {
+  color: rgb(28, 29, 29);
+  font-size: 17px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu,
+    "Helvetica Neue", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  font-weight: 400;
+  line-height: 25.5px;
+}
+.price {
+  display: flex;
+  gap: 10px;
+  color: rgb(28, 29, 29);
+  font-size: 15.3px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu,
+    "Helvetica Neue", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  font-weight: 400;
+  letter-spacing: 0.425px;
+  margin-bottom: 13px;
+}
+.product-variants {
+  display: flex;
+  gap: 8px;
+}
+.product-variants-item {
+  background-color: (255, 255, 255);
+  display: block;
+  width: 17px;
+  box-shadow: rgb(232, 232, 225) 0px 0px 0px 1px;
+}
